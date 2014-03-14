@@ -155,8 +155,9 @@ h3 {
 	font-weight: 400;
 	color: #333333;
 	text-align: left;
-	clear: both;
 	float: left;
+	width: 400px;
+	clear: right;
 	
 }
 
@@ -167,6 +168,10 @@ h3 {
 	color: #333333;
 	text-align: left;
 	clear: left;
+	float: right;
+}
+
+#h3li {
 	float: right;
 }
 
@@ -287,10 +292,18 @@ p.hpara {
 	font-size: 30pt;
 	color: #3399cc;
 	text-align: center;
-	margin-top: 75px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
+#cooli {
+	margin-top: 0;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	padding-top: 0;
+	padding-top: 10px;
+	border: 0;
 }
 
 #aboot {
@@ -302,7 +315,7 @@ p.hpara {
 	margin-top: 75px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	padding-top: 0;
+	padding-top: 50px;
 	
 }
 
@@ -342,8 +355,8 @@ img.logos {
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
-	padding-bottom: 0;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
 	padding-left: 40px;
 	
 }
@@ -374,6 +387,39 @@ p.clear {
 #telefono {
 	float: right;
 }
+
+#servi {
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#topdiv {
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+div#bbb {
+	float: right;
+	padding: 0 auto;
+	margin: 0 auto;
+	border: none;
+}
+
+
+.Table {
+	
+}
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
