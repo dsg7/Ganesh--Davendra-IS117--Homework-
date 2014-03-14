@@ -90,9 +90,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#top-menu {
+	width: 100%;
+	height: 50px;
+	background-color: #339966;
+	margin: 0;
+	padding: 0;
+}
 
+ul.menu {
+	display: inline;
+	list-style-type: none;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+}
 
+ul.menu li {
+	margin: 0;
+	padding: 0;
+}
 
+ul.menu li a {
+	display: inline;
+	float: left;
+	max-height: 50px;
+	width: 100px;
+	margin: 0;
+	padding: 5px 0;
+	font-family: tahoma, sans-serif;
+	font-size: 22px;
+	text-align: center;
+	background-color: #339966;
+	text-decoration: none;
+	color: #600;
+}
 
 
 
