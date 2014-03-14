@@ -128,11 +128,43 @@ ul.menu li a {
 }
 
 h1{
-	font-family: helvetica;
-	font-size: 13.57pt;
+	font-family: "Helvetica";
+	font-size: 10pt;
+	text-transform: uppercase;
 	font: bold;
 	color: #339966;
+	margin-top: 0;
+	padding-top: 5px;
 	
+}
+
+h3 {
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+	
+}
+
+#h3 {
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: 400;
+	color: #333333;
+	text-align: left;
+	clear: both;
+	float: left;
+}
+
+#h3list {
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: 400;
+	color: #333333;
+	text-align: left;
+	clear: left;
+	float: right;
 }
 
 #Callus {
@@ -218,6 +250,10 @@ clear: both;
 	font-size: 30pt;
 	color: #cc3333;
 	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
 	
 }
 
@@ -229,7 +265,9 @@ p.hpara {
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
-    width: 980px;
+    padding: 0;
+    border: 0; 
+    width: 1000px;
 
 }
 
@@ -239,6 +277,10 @@ p.hpara {
 	font-size: 30pt;
 	color: #3399cc;
 	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
 }
 
 #aboot {
@@ -247,11 +289,21 @@ p.hpara {
 	font-size: 30pt;
 	color: #333333;
 	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	
 }
 
 div.bot {
-	background-color: #ffffff;
+	background-color: #eef1f5;
+	clear: both;
 	
+}
+
+div.mid {
+
 }
 
 img.logos {
@@ -260,6 +312,35 @@ img.logos {
 	margin-right: auto;
 }
 
+.cutapart .crow {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width:55%;
+}
+.cutapart img { 
+	display: block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-left: 40px;
+	
+}
+
+p.clear {
+	clear:both
+}
+
+#emplogo {
+	margin-bottom: 0;
+	margin-top: 10px;
+	padding-bottom: 0;
+	padding-top: 0;
+	
+}
 
 /* ==========================================================================
    Helper classes
